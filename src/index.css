@@ -1,0 +1,96 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+
+
+#container {
+    height: 280px;
+    width: 290px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 34px 0px grey;
+  }
+  
+  .center {
+    height: 406px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .login {
+    margin-left: 28px;
+    float: left;
+    color: grey;
+    font-family: arial;
+  }
+  .loginForm {
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  .title {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: -4px;
+    margin-left: -11.5em;
+    font-family: arial;
+    clear: both;
+  }
+  .textbox{
+    width: 80%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .loginBtn {
+    float: right;
+    margin-right: 15px;
+    margin-top:55px;
+  }
+
+  .register {
+    margin-left: 15px;
+    margin-top: 55px;
+    float: left;
+  }
